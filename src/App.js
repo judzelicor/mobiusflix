@@ -16,7 +16,9 @@ import {
 
 
 import {
-    NavigationBar
+    NavigationBar,
+    Sidebar,
+    SearchBar
 } from "./components"
 
 
@@ -24,24 +26,28 @@ class App extends React.Component {
     render() {
         return ( 
             <div className="app">
-                <main className="app-stage">
-                    <NavigationBar />
+                <main className="app-stage grid grid-cols-[250px_1fr_320px]">
                     <div>
-                        <span className="text-4xl">Sidebar</span>
-                    </div>
-                    <Routes>
-                        <Route path={ "/" } element={ <Homepage /> } />
-                        <Route path={ "/movies" } element={ <MoviesPage /> } />
-                        <Route path={ "/tv-shows" } element={ <TVShowsPage /> } />
-                        <Route path={ "/animations" } element={ <AnimationsPage /> } />
-                    </Routes>
-                    <div>
-                        <span className="text-4xl">Explorer Pane</span>
+                        <Sidebar />
                     </div>
                     <div>
-                        <span className="text-4xl">Footer</span>
+                        <div>
+                            <NavigationBar />
+                        </div>
+                        <Routes>
+                            <Route path={ "/" } element={ <Homepage /> } />
+                            <Route path={ "/movies" } element={ <MoviesPage /> } />
+                            <Route path={ "/tv-shows" } element={ <TVShowsPage /> } />
+                            <Route path={ "/animations" } element={ <AnimationsPage /> } />
+                        </Routes>
+                    </div>
+                    <div>
+                        <SearchBar />
                     </div>
                 </main>
+                <div>
+                    <span className="text-4xl">Footer</span>
+                </div>
             </div>
         )
     }

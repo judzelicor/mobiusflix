@@ -6,14 +6,14 @@ function NavigationBar() {
     return (
         <header>
             <nav>
-                <ul>
-                    <li>
+                <ul className="flex">
+                    <li className="mr-7">
                         <Link to={ "/" }>Home</Link>
                     </li>
-                    <li>
+                    <li className="mr-7">
                         <Link to={ "/movies" }>Movies</Link>
                     </li>
-                    <li>
+                    <li className="mr-7">
                         <Link to={ "tv-shows" }>TV Shows</Link>
                     </li>
                     <li>
