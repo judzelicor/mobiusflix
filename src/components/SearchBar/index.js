@@ -1,7 +1,7 @@
 function SearchBar() {
     return (
         <div>
-            This is the seach bar.
+            <input placeholder="Movies, TV Shows, Animations..." />
         </div>
     )
 }

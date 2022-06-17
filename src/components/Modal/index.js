@@ -1,5 +1,3 @@
-import React from "react"
-
 import {
     LoginModal
 } from "../Modals"
@@ -13,3 +11,4 @@ function Modals() {
 }
 
 export default Modals
+
