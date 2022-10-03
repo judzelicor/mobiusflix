@@ -1,0 +1,133 @@
+.fPl9 {
+    background-color: #9E16F3;
+}
+
+.Lm85 {
+    padding: 50px;
+    max-width: 1490px;
+    margin: 0 auto;
+}
+
+.K0L1 {
+    display: grid;
+    gap: 38px;
+    margin-bottom: 50px;
+}
+
+.j1H9 {
+    font-family: "Clash Display";
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.KLww:hover {
+    text-decoration: underline;
+}
+
+.F9Uy {
+    display: grid;
+    gap: 12px;
+}
+
+.j1K7 {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+}
+
+.D10r {
+    align-items: center;
+    display: flex;
+    fill: var(--icon-fill);
+    width: 17px;
+    height: 22px;
+    margin-right: 7px;
+}
+
+.D10r svg {
+    height: 100%;
+    width: 100%;
+}
+
+.OpL1 {
+    font-size: 12px;
+}
+
+.P0l1 {
+    border-radius: 9px;
+    position: relative;
+    max-width: 360px;
+}
+
+.JaQ1 {
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 9px;
+    color: #560986;
+    font-family: "Satoshi";
+    height: 38px;
+    margin: 0;
+    outline: none;
+    padding-left: 14px;
+    padding-right: 130px;
+    width: 100%;
+}
+
+.JaQ1::placeholder {
+    color: #9E16F3;
+}
+
+.K8IP {
+    background-color: #560986;
+    border: none;
+    border-radius: 9px;
+    color: #f6f6f6;
+    cursor: pointer;
+    font-family: "Clash Display";
+    font-weight: 600;
+    height: 38px;
+    margin: 0;
+    position: absolute;
+    right: -3px;
+    top: 0;
+    width: 120px;
+}
+
+.rEw1 {
+    font-size: 12px;
+    font-family: "Clash Display";
+    margin-bottom: 12px;
+}
+
+.rEw2 {
+    font-family: "Clash Display";
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.Mg71 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.kLg5 {
+    margin-bottom: 38px;
+}
+
+.KiM1 {
+    width: 80px;
+}
+
+.L1wq {
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+@media only screen and (min-width: 868px) {
+    .K0L1 {
+        grid-template-columns: repeat(3, 1fr) 360px;
+    }
+}

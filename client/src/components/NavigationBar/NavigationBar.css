@@ -1,0 +1,135 @@
+.h35r {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    position: relative;
+    width: 100%;
+}
+
+.L9uy {
+    display: flex;
+    gap: 32px;
+}
+
+.m6N1 {
+    font-size: 12px;
+}
+
+.pxL0 {
+    align-items: center;
+    display: flex;
+    width: 160px;
+}
+
+.kF3n {
+    padding: 0 25px;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.Mb34 {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: auto 1fr;
+}
+
+.kJ13 {
+    cursor: pointer;
+    fill: #f6f6f6;
+    position: absolute;
+    right: 14px;
+    top: 28px;
+    width: 24px;
+}
+
+.Kj7V {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+.Lp97 {
+    border-radius: 7px;
+    font-size: 12px;
+    height: 32px;
+    transition: 300ms cubic-bezier(0.22, 1, 0.36, 1);
+    width: 90px;
+}
+
+.lLk8 {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.Lp97.v1 {
+    box-shadow: 0 0 0 1px #f6f6f6;
+}
+
+.Lp97.v1:hover {
+    background-color: #f6f6f6;
+    color: #870FD2;
+    transform: scale(0.96);
+}
+
+.Lp97.v2 {
+    background-color: #870FD2;
+}
+
+.Lp97.v2:hover {
+    background-color: #560986;
+    transform: scale(0.96);
+}
+
+.Puq1 {
+    display: none;
+}
+
+.L13K {
+    position: relative;
+}
+
+.L13K::after {
+    background-color: #870FD2;
+    border-radius: 100%;
+    bottom: -40%;
+    content: "";
+    height: 7px;
+    position: absolute;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%) scale(0);
+    transition: 300ms cubic-bezier(0.22, 1, 0.36, 1);
+    width: 7px;
+}
+
+.L13K:hover::after {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+}
+
+@media only screen and (min-width: 968px) {
+    .kJ13 {
+        display: none;
+    }
+
+    .Puq1 {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .m6N1 {
+        font-size: 14px;
+    }
+
+    .pxL0 {
+        width: 200px;
+    }
+}

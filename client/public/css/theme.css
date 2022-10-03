@@ -1,0 +1,5 @@
+html[data-theme="dark"] {
+    --primary-foreground-color: #f6f6f6;
+    --primary-background-color: #0c0113;
+    --icon-fill: #f6f6f6;
+}
