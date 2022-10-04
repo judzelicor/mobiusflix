@@ -1,9 +1,11 @@
-.h35r {
+.header {
+    position: fixed;
     align-items: center;
     display: flex;
     height: 80px;
-    position: relative;
+    top: 0;
     width: 100%;
+    z-index: 999;
 }
 
 .L9uy {

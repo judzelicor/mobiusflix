@@ -7,5 +7,10 @@ export default defineConfig({
   plugins: [
     react(),
     svgr()
-  ]
+  ],
+  server: {
+    proxy: {
+      "/api": "http://localhost:3001"
+    }
+  }
 })

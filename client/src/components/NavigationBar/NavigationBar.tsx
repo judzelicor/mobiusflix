@@ -15,7 +15,7 @@ function NavigationBar() {
 
     return (
         <>
-            <header className={ "h35r" }>
+            <header id={ "header" } className={ "header h35r" }>
                 <div className={ "kF3n" }>
                     <div className={ "Mb34" }>
                         <div className={"pxL0"}>
