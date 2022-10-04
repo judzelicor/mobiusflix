@@ -16,6 +16,7 @@ function LandingPage() {
         })
             .then(result => {
                 const _featuredFilm = result.data.featured;
+                console.log(_featuredFilm)
                 setFeaturedFilm(_featuredFilm);
                 setFeaturedFilmHasBeenFetched(true);
             })
@@ -24,13 +25,31 @@ function LandingPage() {
     if (featuredFilmHasBeenFetched) {
         return (
             <>
-                <section>
+                <section id={ "landingPage" }>
                     <div className={ "hero_image_container__kL90" }>
                         <div className={ "hero_image_backdrop__kL90" }>
                             <img src={ `https://image.tmdb.org/t/p/original/${ featuredFilm.backdrop_path }` } />
                         </div>
                         <div className={ "hero_image_backdrop_overlay" }></div>
                     </div>
+                    <div className={ "heroContentWrapper__kL90" }>
+                        <div className={ "heroTextContent__kL90" }>
+                            <div>
+                                <h2 className={ "featuredFilmTitle__kL90" }>{ featuredFilm.name ? featuredFilm.name : featuredFilm.original_title }</h2>
+                            </div>
+                            <div>
+                                <p className={ "featuredFilmDescription__kL90" }>{ featuredFilm.overview }</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </>
+        )
+    } else {
+        return (
+            <>
+                <section id={ "landingPage" }>
+
                 </section>
             </>
         )

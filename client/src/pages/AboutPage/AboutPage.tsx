@@ -1,11 +1,14 @@
 import {
     Footer
 } from "../../components";
+import "./AboutPage.css";
 
 function AboutPage() {
     return (
         <>
-            This is the about page.
+            <section id={ "aboutPage__VHkg" }>
+                <main></main>
+            </section>
         </>
     )
 }

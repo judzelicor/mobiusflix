@@ -1,11 +1,14 @@
 import {
     Footer
 } from "../../components";
+import "./MoviesPage.css";
 
 function MoviesPage() {
     return (
         <>
-            This is the movies page.
+            <section id={ "moviesPage" }>
+                <main></main>
+            </section>
         </>
     )
 }
